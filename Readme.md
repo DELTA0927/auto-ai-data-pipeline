@@ -53,7 +53,9 @@ git clone https://github.com/DELTA0927/auto-ai-data-pipeline.git
 프로젝트에 필요한 모든 Python 라이브러리(종속성)는 requirements.txt 파일에 정의되어 있습니다. 
 
 가상 환경을 활성화한 상태에서 다음 명령어를 실행하여 설치합니다:
-가상 환경 활성화:**
+가상 환경 생성:
+        python -m venv venv
+가상 환경 활성화:
         * **Windows:**
             .\venv\Scripts\activate
         * **macOS/Linux:**
