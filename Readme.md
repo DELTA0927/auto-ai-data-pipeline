@@ -50,7 +50,16 @@ Python 3.x: 시스템에 Python이 설치되어 있어야 합니다. (Python 3.8
 명령 프롬프트(CMD) 또는 터미널을 열고 다음 명령어를 실행하여 프로젝트를 로컬로 가져옵니다:
 git clone https://github.com/DELTA0927/auto-ai-data-pipeline.git
 필요한 라이브러리 설치
-프로젝트에 필요한 모든 Python 라이브러리(종속성)는 requirements.txt 파일에 정의되어 있습니다. 가상 환경을 활성화한 상태에서 다음 명령어를 실행하여 설치합니다:
+프로젝트에 필요한 모든 Python 라이브러리(종속성)는 requirements.txt 파일에 정의되어 있습니다. 
+
+가상 환경을 활성화한 상태에서 다음 명령어를 실행하여 설치합니다:
+가상 환경 활성화:**
+        * **Windows:**
+            .\venv\Scripts\activate
+        * **macOS/Linux:**
+            source venv/bin/activate
+        (가상 환경 활성화 시 터미널 프롬프트 앞에 `(venv)`가 표시됩니다.)
+
 pip install -r requirements.txt
 pipeline.py 스크립트를 실행하여 데이터 수집 및 가공 파이프라인을 시작할 수 있습니다.
 참고: pipeline.py 파일 내 test_urls 리스트를 수정하여 수집하고자 하는 웹 페이지의 URL을 변경할 수 있습니다.
