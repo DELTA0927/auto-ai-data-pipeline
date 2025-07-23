@@ -62,8 +62,13 @@ git clone https://github.com/DELTA0927/auto-ai-data-pipeline.git
             source venv/bin/activate
         (가상 환경 활성화 시 터미널 프롬프트 앞에 `(venv)`가 표시됩니다.)
 
+가상환경 설정 이후 아래 명령어를 순차적으로 복사 , 붙여넣기.
+cd auto-ai-data-pipeline
 pip install -r requirements.txt
+cd 파이프라인 메인/src
+python pipeline.py
 pipeline.py 스크립트를 실행하여 데이터 수집 및 가공 파이프라인을 시작할 수 있습니다.
+
 참고: pipeline.py 파일 내 test_urls 리스트를 수정하여 수집하고자 하는 웹 페이지의 URL을 변경할 수 있습니다.
 
 🛠️ 기술 스택
