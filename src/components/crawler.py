@@ -1,3 +1,4 @@
+# robots 준수 크롤링·본문추출
 import requests, time, urllib.robotparser as robotparser, re
 from bs4 import BeautifulSoup
 from datetime import datetime

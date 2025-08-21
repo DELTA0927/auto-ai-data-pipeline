@@ -1,4 +1,5 @@
-from schemas import *
+# 상태전달 요약(권장 지침 적용)
+from schemas import State  # 또는 State 정의 위치에 따라 경로 수정
 from models.model_client import load_guidance, generate
 
 _GUIDE = load_guidance()
