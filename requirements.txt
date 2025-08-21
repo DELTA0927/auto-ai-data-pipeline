@@ -1,0 +1,33 @@
+# --- 필수 ---
+# HTTP 요청
+requests>=2.31.0
+# HTML 파싱
+beautifulsoup4>=4.12.3
+# 본문 추출 (선택, 있으면 품질↑)
+trafilatura>=1.9.0
+# 텍스트 전처리
+regex>=2024.5.15
+# 머신러닝·자연어처리
+numpy==2.3.2
+scipy==1.16.1
+scikit-learn==1.6.1
+# 데이터 구조 (파이썬3.7 이상이면 기본 내장)
+dataclasses; python_version < "3.7"
+# JSON 검증/유틸 (선택)
+jsonschema>=4.23.0
+
+# --- 안정적 빌드용 ---
+setuptools>=65
+wheel>=0.40
+pip>=23.0
+
+# --- 확장/옵션 ---
+# AI/LLM 활용시
+transformers>=4.44
+torch>=2.3
+# 데이터 처리/시각화
+pandas>=2.0
+matplotlib>=3.9
+tqdm>=4.66
+# 환경 변수 관리
+python-dotenv>=1.0
